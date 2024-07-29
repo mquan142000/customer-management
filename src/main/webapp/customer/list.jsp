@@ -30,7 +30,7 @@
             <td><a href="customers?action=view&id=${customer.id}"><c:out value="${customer.getName()}" /></a></td>
             <td>${customer.getEmail()}</td>
             <td>${customer.getAddress()}</td>
-            <td><a href="customers?action=edit&id=${customer.id}">Edit</a></td>
+            <td><a href="customers?action=edit&id=${customer.rrid}">Edit</a></td>
             <td><a href="customers?action=delete&id=${customer.id}">Delete</a></td>
         </tr>
     </c:forEach>
